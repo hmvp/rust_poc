@@ -1,0 +1,23 @@
+[package]
+authors = ["Hmvp <github@hmvp.nl>"]
+categories = ["embedded", "no-std"]
+keywords = ["arm", "cortex-m", "template"]
+license = "MIT OR Apache-2.0"
+name = "rust_poc"
+version = "0.1.0"
+[dependencies]
+cortex-m = "0.2.4"
+cortex-m-rt = "0.2.1"
+cortex-m-rtfm = "0.1.0"
+
+[dependencies.cast]
+default-features = false
+version = "0.2.2"
+
+[dependencies.stm32f3x4]
+path = "stm32f3x4"
+
+[profile]
+[profile.release]
+debug = true
+lto = true
