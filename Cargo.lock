@@ -7,6 +7,7 @@ dependencies = [
  "cortex-m-rt 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "cortex-m-rtfm 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "stm32f3x4 0.1.0",
+ "stm32l4x6 0.1.0",
 ]
 
 [[package]]
@@ -66,6 +67,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "stm32f3x4"
+version = "0.1.0"
+dependencies = [
+ "cortex-m 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
+ "vcell 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "stm32l4x6"
 version = "0.1.0"
 dependencies = [
  "cortex-m 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",

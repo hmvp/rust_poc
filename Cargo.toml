@@ -14,6 +14,9 @@ cortex-m-rtfm = "0.1.0"
 default-features = false
 version = "0.2.2"
 
+[dependencies.stm32l4x6]
+path = "stm32l4x6"
+
 [dependencies.stm32f3x4]
 path = "stm32f3x4"
 

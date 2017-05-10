@@ -1,0 +1,8 @@
+[package]
+name = "stm32l4x6"
+version = "0.1.0"
+authors = ["Hmvp <github@hmvp.nl>"]
+
+[dependencies]
+cortex-m = "0.2.6"
+vcell = "0.1.0"
